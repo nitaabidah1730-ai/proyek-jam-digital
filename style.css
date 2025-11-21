@@ -1,0 +1,20 @@
+body {
+    display: flex; /* Mengatur tata letak flexbox */
+    justify-content: center; /* Memposisikan konten horizontal di tengah */
+    align-items: center; /* Memposisikan konten vertikal di tengah */
+    min-height: 100vh; /* Mengambil tinggi penuh viewport */
+    margin: 0;
+    background-color: #222; /* Latar belakang gelap */
+    font-family: Arial, sans-serif;
+}
+
+.digital-clock {
+    font-size: 8em; /* Ukuran teks besar untuk jam */
+    color: #0f0; /* Warna hijau neon khas jam digital */
+    padding: 20px;
+    border: 5px solid #0f0;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.8); /* Efek cahaya neon */
+    background-color: #333;
+    letter-spacing: 3px; /* Jarak antar huruf */
+}
